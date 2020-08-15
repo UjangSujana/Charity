@@ -1,7 +1,7 @@
 <script>
   import Header from "../components/Header.svelte";
   import Footer from "../components/Footer.svelte";
-  import { charities } from "../data/charities";
+  import { charities } from "../data/charities.js";
 
   export let params;
   let data;

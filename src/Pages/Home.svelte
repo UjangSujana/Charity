@@ -5,7 +5,7 @@
 	import Promo from '../Components/Promo.svelte';
 	import Footer from '../Components/Footer.svelte';
 
-    import { charities } from '../Data/charities.js';
+    import { charities } from '../data/charities.js';
 
 	let title = "Charity";
 
