@@ -6,7 +6,7 @@
 	import Donation from "./pages/Donation.svelte";
 	import NotFound from "./Pages/NotFound.svelte";
 
-	let page, params;
+	let page, params ;
 
 	router("/", () => (page = Home));
  	router("/about", () => (page = About));

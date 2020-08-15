@@ -7,7 +7,7 @@
 
     import { charities } from '../Data/charities.js';
 
-	let title = "Charity" ;
+	let title = "Charity";
 
 	
 </script>
