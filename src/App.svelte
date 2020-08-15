@@ -1,10 +1,10 @@
 <script>
 	import router from "page";
-	import Home from './Pages/Home.svelte';
-	import About from './Pages/About.svelte';
-	import Contact from './Pages/Contact.svelte';
+	import Home from "./Pages/Home.svelte";
+	import About from "./Pages/About.svelte";
+	import Contact from "./Pages/Contact.svelte";
 	import Donation from "./pages/Donation.svelte";
-	import NotFound from './Pages/NotFound.svelte';
+	import NotFound from "./Pages/NotFound.svelte";
 
 	let page, params;
 
