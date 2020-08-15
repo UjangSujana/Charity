@@ -146,7 +146,10 @@
 
             <span class="xs-separetor"></span>
 
-            <a href="/donation/{Charity.id}" data-toggle="modal" data-target="#exampleModal"
+            <a 
+              href="/donation/{Charity.id}" 
+              data-toggle="modal" 
+              data-target="#exampleModal"
               class="btn btn-primary btn-block">
               Donate This Cause
           </a>
