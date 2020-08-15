@@ -35,8 +35,7 @@
   }
 </style>
 
-
-
+<Header />
  <!-- welcome section -->
     <!--breadcumb start here-->
     {#if data}
@@ -146,6 +145,8 @@
         </div><!-- .container end -->
       </section><!-- End donation form section -->
     </main>
-    {/if}
+  {/if}
+
+  <Footer />
     
     
