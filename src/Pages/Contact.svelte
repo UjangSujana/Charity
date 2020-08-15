@@ -1,7 +1,7 @@
 <script>
-  import Header from "../components/Header.svelte";
-  import Footer from "../components/Footer.svelte";
-
+  import Header from "../Components/Header.svelte";
+  import Footer from "../Components/Footer.svelte";
+  
   google.maps.event.addDomListener(window, "load", init);
   
   function init() {
@@ -104,6 +104,7 @@
 </script>
 
 <Header />
+
 <!-- welcome section -->
 <!--breadcumb start here-->
 <section
@@ -206,5 +207,4 @@
   </section>
   <!-- End contact section -->
 </main>
-
 <Footer />
