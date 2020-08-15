@@ -2,7 +2,7 @@
   
   import Header from "../Components/Header.svelte";
   import Footer from "../components/Footer.svelte";
-  import { charities } from '../data/charities.js';
+  import { charities } from "../data/charities.js";
 
   export let params;
   let data;
@@ -69,12 +69,17 @@
               <div class="xs-donation-form-wraper">
                 <div class="xs-heading xs-mb-30">
                   <h2 class="xs-title">{data.title}</h2>
-                  <p class="small">To learn more about make donate charity
-                    with us visit our} "<span class="color-green">Contact
+                  <p class="small"> 
+                    To learn more about make donate charity
+                    with us visit our "
+                    <span class="color-green">Contact
                       us</span>" site. By calling <span class=
-                      "color-green">+44(0) 800 883 8450</span>.</p><span class=
-                      "xs-separetor v2"></span>
-                </div><!-- .xs-heading end -->
+                      "color-green">+44(0) 800 883 8450</span>
+                      .
+                    </p>
+                    <span class="xs-separetor v2"></span>
+                </div>
+                <!-- .xs-heading end -->
                 <form
                 action="#"
                 method="post"
