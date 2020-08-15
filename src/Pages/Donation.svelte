@@ -1,6 +1,5 @@
 <script>
-  
-  import Header from "../Components/Header.svelte";
+  import Header from "../components/Header.svelte";
   import Footer from "../components/Footer.svelte";
   import { charities } from "../data/charities";
 
@@ -36,7 +35,7 @@
   }
 </style>
 
-<Header />
+
 
  <!-- welcome section -->
     <!--breadcumb start here-->
@@ -149,4 +148,4 @@
     </main>
     {/if}
     
-    <Footer />
+    
